@@ -1,0 +1,21 @@
+<h2>Register Form</h2>
+
+<form>
+  <div><input type="text" placeholder="Full Name" name="name" /></div>
+  <br />
+  <div><input type="text" placeholder="Mobile" name="mobile" /></div>
+  <br />
+  <div>
+    <label for="gender">Gender:</label>
+    <label>
+      <input type="radio" value="Male" name="gender" />
+      <span>Male</span>
+    </label>
+    <label>
+      <input type="radio" value="Female" name="gender" />
+      <span>Female</span>
+    </label>
+  </div>
+  <br />
+  <button (click)="onSubmit()">Submit</button>
+</form>

@@ -1,0 +1,14 @@
+p {
+  font-family: Lato;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a.active {
+  color: blue;
+  text-decoration: underline;
+  font-weight: bold;
+}

@@ -1,0 +1,12 @@
+<h4>Male users</h4>
+
+<table border="1" style="width: 100%">
+  <tr>
+    <th>Name</th>
+    <th>Mobile</th>
+  </tr>
+  <tr *ngFor="let user of users">
+    <td>{{ user.name }}</td>
+    <td>{{ user.mobile }}</td>
+  </tr>
+</table>
